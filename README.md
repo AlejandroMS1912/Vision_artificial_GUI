@@ -17,7 +17,7 @@ Esta dividida en 3 bloques de imágenes que se superponen entre sí dependiendo 
 
 |**Imagen de fondo**| |
 |:-:|:-:|
-|Es la base de la interfaz gráfica, en el rectángulo grande se mostrará el reproductor de la webcam en tiempo real, en el hueco vacío de la derecha se mostraran las diferentes pantallas con las opciones y en los círculos inferiores se mostrarán los iconos de cada selección.|![fondo](https://user-images.githubusercontent.com/110389988/208949976-cd94fb0b-7165-44db-91c3-d0e642a3e7e4.png)|
+|Es la base de la interfaz gráfica, en el rectángulo grande se mostrará el reproductor de la webcam en tiempo real, en el hueco vacío de la derecha se mostraran las diferentes pantallas con las opciones y en los círculos inferiores se mostrarán los iconos de cada selección.|![fondo](https://user-images.githubusercontent.com/110389988/208949976-cd94fb0b-7165-44db-91c3-d0e642a3e7e4.png/200/200)|
 
 
 |**Pantallas de opción**| |

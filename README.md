@@ -48,7 +48,7 @@ Sabiendo si cada uno de los dedos está levantado (1 si lo está, 0 si no lo est
 
 Por lo tanto, si todos los dedos están bajados (0) y el dedo índice esta levantado (1) quiere decir que estamos haciendo el gesto «1» con la mano y por lo tanto estamos seleccionando la opción 1, si también esta levantado el dedo corazón estaremos haciendo el gesto «2» y eligiendo la opción 2 y si están levantados los dedos índice, corazón y anular y el resto bajados estaremos haciendo el gesto «3» y eligiendo la tercera opción.
 
-|Seleccionar opción 1|Seleccionar opción 2|
+|Código|Gesto|
 |:-:|:-:|
 |![1_código](https://user-images.githubusercontent.com/110389988/208964586-d383a04a-6f5c-4f1b-9f49-749152e44859.png)|<img align="center" width="100" height="100" src="https://alejandromora.es/wp-content/uploads/2022/12/1.png/100/100">|
 |![2_código](https://user-images.githubusercontent.com/110389988/208964788-1440b73e-66de-403c-b8e8-f2cdedbba740.png)|<img align="center" width="100" height="100" src="https://alejandromora.es/wp-content/uploads/2022/12/2.png/100/100">|

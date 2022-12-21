@@ -15,6 +15,10 @@ Cuando el cliente hace el gesto correspondiente a cualquiera de las 3 opciones, 
 
 Esta dividida en 3 bloques de imágenes que se superponen entre sí dependiendo de las elecciones del cliente:
 
+|Fondo|Second Image|
+|:-:|:-:|
+|Es la base de la interfaz gráfica, en el rectángulo grande se mostrará el reproductor de la webcam en tiempo real, en el hueco vacío de la derecha se mostraran las diferentes pantallas con las opciones y en los círculos inferiores se mostrarán los iconos de cada selección.|![Second Image](https://images.pexels.com/photos/1335115/pexels-photo-1335115.jpeg?h=750&w=1260)|
+
 ### Fondo
 Es la base de la interfaz gráfica, en el rectángulo grande se mostrará el reproductor de la webcam en tiempo real, en el hueco vacío de la derecha se mostraran las diferentes pantallas con las opciones y en los círculos inferiores se mostrarán los iconos de cada selección.
 

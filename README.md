@@ -63,5 +63,5 @@ Por lo tanto si le indicamos al programa que cuando el contador llegue a 80 se s
 Por último representaremos este tiempo de confirmación en la interfaz gráfica mediante una elipse que generaremos a través del método ellipse() de la librería de python opencv. Simplemente debemos ajustar algunos parámetros de la elipse como la posición del centro de la circunferencia (el centro de la opción seleccionada), el radio horizontal y vertical de la elipse, el grosor, el color y su valor, que será proporcional al contador mencionado anteriormente (tiempo de confirmación).
 
 <p align="center">
-  <img width="300" height="300" src="https://alejandromora.es/wp-content/uploads/2022/12/2_Moment2.jpg/300/300">
+  <img width="400" height="300" src="https://alejandromora.es/wp-content/uploads/2022/12/2_Moment2.jpg/400/300">
 </p>

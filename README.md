@@ -10,3 +10,16 @@ Cuando el cliente hace el gesto correspondiente a cualquiera de las 3 opciones, 
 |Seleccionar opción 1|Seleccionar opción 3|Seleccionar opción 2|
 |:-:|:-:|:-:|
 |![1](https://user-images.githubusercontent.com/110389988/208942986-de25bd39-d359-4a23-9de7-ec9817d74ae0.jpg)|![2](https://user-images.githubusercontent.com/110389988/208947377-623e692f-b42a-4707-90db-5b5ccb952883.jpg)|![3](https://user-images.githubusercontent.com/110389988/208947492-e1441fab-5615-4efe-9c72-8ca6b2a93c81.jpg)|
+
+## Configuración de la interfaz gráfica
+
+Esta dividida en 3 bloques de imágenes que se superponen entre sí dependiendo de las elecciones del cliente:
+
+### Fondo
+Es la base de la interfaz gráfica, en el rectángulo grande se mostrará el reproductor de la webcam en tiempo real, en el hueco vacío de la derecha se mostraran las diferentes pantallas con las opciones y en los círculos inferiores se mostrarán los iconos de cada selección.
+
+### Opciones
+Indican las opciones disponibles, en la primera imagen son sólo 2 mientras que en las siguientes son 3. Además la segunda y la tercera imagen dependen de la primera elección y la última muestra únicamente que el pedido se ha realizado con éxito. Todas estas variaciones hay que tenerlas en cuenta a la hora de crear la lógica del código
+
+### Iconos
+Indican las selecciones hechas, al igual que con las opciones el segundo icono depende de la primera elección y por lo tanto habrá que aplicar esa lógica en el código

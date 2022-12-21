@@ -47,3 +47,10 @@ Finalmente el método fingersUp() también de la clase detector, con la mano det
 Sabiendo si cada uno de los dedos está levantado (1 si lo está, 0 si no lo está) podemos empezar a construir los condicionales que formarán la lógica de nuestro código.
 
 Por lo tanto, si todos los dedos están bajados (0) y el dedo índice esta levantado (1) quiere decir que estamos haciendo el gesto «1» con la mano y por lo tanto estamos seleccionando la opción 1, si también esta levantado el dedo corazón estaremos haciendo el gesto «2» y eligiendo la opción 2 y si están levantados los dedos índice, corazón y anular y el resto bajados estaremos haciendo el gesto «3» y eligiendo la tercera opción.
+
+|Seleccionar opción 1|Seleccionar opción 2|
+|:-:|:-:|
+|![1_código](https://user-images.githubusercontent.com/110389988/208964586-d383a04a-6f5c-4f1b-9f49-749152e44859.png)|![1](https://user-images.githubusercontent.com/110389988/208964725-53fba22e-d5ef-4701-8b83-3e84709bf887.png)|
+|![2_código](https://user-images.githubusercontent.com/110389988/208964788-1440b73e-66de-403c-b8e8-f2cdedbba740.png)|![2](https://user-images.githubusercontent.com/110389988/208964733-5d81d536-6a6b-4b98-98c8-2ff31ee06fe2.png)|
+|![3_código](https://user-images.githubusercontent.com/110389988/208964801-3cd93492-7a53-4d92-a27a-10d3368c7dca.png)|![3](https://user-images.githubusercontent.com/110389988/208964749-bf481ffa-68fd-4998-82bc-60570ad835e1.png)|
+

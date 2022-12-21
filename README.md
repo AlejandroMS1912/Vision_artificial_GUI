@@ -4,8 +4,6 @@ Interfaz gráfica que utiliza un módulo de visión artificial para detectar man
 
 En este proyecto utilizaremos una heladería como ejemplo para crear un módulo de visión artificial que tramita sus pedidos escaneando en tiempo real los gestos que realiza el cliente con las manos.
 
-Gesto                      |  Second step
-:-------------------------:|:-------------------------:
-Un dedo levantado, seleccionar opción 1  |  ![1](https://user-images.githubusercontent.com/110389988/208942986-de25bd39-d359-4a23-9de7-ec9817d74ae0.jpg)
+<img align="left" width="100" height="100" src="https://alejandromora.es/wp-content/uploads/2022/12/2022-12-14-18-23-20_Moment1.jpg/100/100">
 
 

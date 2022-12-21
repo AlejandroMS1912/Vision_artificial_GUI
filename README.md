@@ -30,8 +30,7 @@ En cuanto a la lógica del código, en primer lugar la imagen de la webcam se ca
 
 Una vez tenemos este reproductor creado, lo ubicamos en el cuadrado de la interfaz gráfica y añadimos también la primera pantalla de opción y ya tenemos la interfaz gráfica lista para aplicar la visión artificial.
 
-| **Imagen de fondo** ||
-|:-|:-:|
-|Para detectar las manos y los gestos que nos servirán de referencia para elegir entre una opción u otra utilizaremos el módulo de visión artificial HandTrackingModule de la librería de python cvzone
+Para detectar las manos y los gestos que nos servirán de referencia para elegir entre una opción u otra utilizaremos el módulo de visión artificial HandTrackingModule de la librería de python cvzone
 
-Con el método findHands() de la clase detector y con la imagen de la webcam, el número máximo de manos simultáneas que queremos detectar y el índice de confianza como inputs detectaremos la mano que captura la webcam y sus 20 puntos de referencia.|![Mano](https://user-images.githubusercontent.com/110389988/208960421-80326d46-172e-43a9-b14a-bac085f6efa7.jpg)|
+Con el método findHands() de la clase detector y con la imagen de la webcam, el número máximo de manos simultáneas que queremos detectar y el índice de confianza como inputs detectaremos la mano que captura la webcam y sus 20 puntos de referencia.
+![Mano](https://user-images.githubusercontent.com/110389988/208960421-80326d46-172e-43a9-b14a-bac085f6efa7.jpg)|

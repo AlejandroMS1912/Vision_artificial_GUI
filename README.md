@@ -22,3 +22,14 @@ Esta dividida en 3 bloques de imágenes que se superponen entre sí dependiendo 
 || Indican las opciones disponibles, en la primera imagen son sólo 2 mientras que en las siguientes son 3. Además la segunda y la tercera imagen dependen de la primera elección y la última muestra únicamente que el pedido se ha realizado con éxito. Todas estas variaciones hay que tenerlas en cuenta a la hora de crear la lógica del código.|![opciones](https://user-images.githubusercontent.com/110389988/208950867-2b4c5fb4-037f-4a77-8fae-23c8e4fcef6e.png)|
 |**3**|**Iconos**| |
 ||Indican las selecciones hechas, al igual que con las opciones el segundo icono depende de la primera elección y por lo tanto habrá que aplicar esa lógica en el código.|![iconos](https://user-images.githubusercontent.com/110389988/208953482-d472cde4-f8c4-4f6e-a112-093322794e84.png)|
+
+
+## Lógica del código
+
+En cuanto a la lógica del código, en primer lugar la imagen de la webcam se captura mediante el método videoCapture() de la librería de python opencv (cv2), este método básicamente lo que hace es capturar la imagen de la webcam en un formato de imagen. Para convertir esta imagen en un vídeo en tiempo real creamos un bucle infinito que muestre imágenes cada 1 milisegundo, es decir, le pedimos a nuestro ordenador que muestre el número máximo de frames por segundo que pueda. 
+
+Una vez tenemos este reproductor creado, lo ubicamos en el cuadrado de la interfaz gráfica y añadimos también la primera pantalla de opción y ya tenemos la interfaz gráfica lista para aplicar la visión artificial.
+
+| **Imagen de fondo** ||
+|:-|:-:|
+|Es la base de la interfaz gráfica, en el rectángulo grande se mostrará el reproductor de la webcam en tiempo real, en el hueco vacío de la derecha se mostraran las diferentes pantallas con las opciones y en los círculos inferiores se mostrarán los iconos de cada selección.|![Mano](https://user-images.githubusercontent.com/110389988/208960421-80326d46-172e-43a9-b14a-bac085f6efa7.jpg)|

@@ -51,10 +51,6 @@ Por lo tanto, si todos los dedos están bajados (0) y el dedo índice esta levan
 |Seleccionar opción 1|Seleccionar opción 2|
 |:-:|:-:|
 |![1_código](https://user-images.githubusercontent.com/110389988/208964586-d383a04a-6f5c-4f1b-9f49-749152e44859.png)|<img align="center" width="100" height="100" src="https://alejandromora.es/wp-content/uploads/2022/12/1.png/100/100">|
-
-
-
-
-|![2_código](https://user-images.githubusercontent.com/110389988/208964788-1440b73e-66de-403c-b8e8-f2cdedbba740.png)|![2](https://user-images.githubusercontent.com/110389988/208964733-5d81d536-6a6b-4b98-98c8-2ff31ee06fe2.png)|
-|![3_código](https://user-images.githubusercontent.com/110389988/208964801-3cd93492-7a53-4d92-a27a-10d3368c7dca.png)|![3](https://user-images.githubusercontent.com/110389988/208964749-bf481ffa-68fd-4998-82bc-60570ad835e1.png)|
+|![2_código](https://user-images.githubusercontent.com/110389988/208964788-1440b73e-66de-403c-b8e8-f2cdedbba740.png)|<img align="center" width="100" height="100" src="https://alejandromora.es/wp-content/uploads/2022/12/2.png100/100">|
+|![3_código](https://user-images.githubusercontent.com/110389988/208964801-3cd93492-7a53-4d92-a27a-10d3368c7dca.png)|<img align="center" width="100" height="100" src="https://alejandromora.es/wp-content/uploads/2022/12/istockphoto-1280587487-170667a-removebg-preview.png100/100">|
 

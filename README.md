@@ -2,7 +2,8 @@
 
 Interfaz gráfica que utiliza un módulo de visión artificial para detectar manos en tiempo real a través de una webcam. Elige entre las diferentes opciones haciendo gestos con las manos
 
-En este proyecto utilizaremos una heladería como ejemplo para crear un módulo de visión artificial que tramita sus pedidos escaneando en tiempo real los gestos que realiza el cliente con las manos. Cuando el gesto correspondiente a cualquiera de las 3 opciones, se genera una elipse alrededor de la opción seleccionada que representa el tiempo de confirmación, cuando la elipse se completa la opción se selecciona y la interfaz acctualiza de pantalla
+En este proyecto utilizaremos una heladería como ejemplo para crear un módulo de visión artificial que tramita sus pedidos escaneando en tiempo real los gestos que realiza el cliente con las manos. 
+Cuando el cliente hace el gesto correspondiente a cualquiera de las 3 opciones, se genera una elipse alrededor de la opción seleccionada que representa el tiempo de confirmación, cuando la elipse se completa la opción se selecciona y la interfaz acctualiza de pantalla
 
 
 |Seleccionar opción 1|Seleccionar opción 3|Seleccionar opción 2|

@@ -32,6 +32,18 @@ Una vez tenemos este reproductor creado, lo ubicamos en el cuadrado de la interf
 
 Para detectar las manos y los gestos que nos servirán de referencia para elegir entre una opción u otra utilizaremos el módulo de visión artificial HandTrackingModule de la librería de python cvzone
 
-Con el método findHands() de la clase detector y con la imagen de la webcam, el número máximo de manos simultáneas que queremos detectar y el índice de confianza como inputs detectaremos la mano que captura la webcam y sus 20 puntos de referencia. <p align="right">
+Con el método findHands() de la clase detector y con la imagen de la webcam, el número máximo de manos simultáneas que queremos detectar y el índice de confianza como inputs detectaremos la mano que captura la webcam y sus 20 puntos de referencia. 
+
+<p align="center">
   <img width="460" height="300" src="https://alejandromora.es/wp-content/uploads/2022/12/Mano.jpg/460/300">
 </p>
+
+Finalmente el método fingersUp() también de la clase detector, con la mano detectada en el método anterior como input, deducirá si cada uno de los dedos está levantado o no dependiendo de la posición de sus puntos de referencia
+
+<p align="center">
+  <img width="460" height="300" src="https://alejandromora.es/wp-content/uploads/2022/12/puntos-de-referencia.png/460/300">
+</p>
+
+Sabiendo si cada uno de los dedos está levantado (1 si lo está, 0 si no lo está) podemos empezar a construir los condicionales que formarán la lógica de nuestro código.
+
+Por lo tanto, si todos los dedos están bajados (0) y el dedo índice esta levantado (1) quiere decir que estamos haciendo el gesto «1» con la mano y por lo tanto estamos seleccionando la opción 1, si también esta levantado el dedo corazón estaremos haciendo el gesto «2» y eligiendo la opción 2 y si están levantados los dedos índice, corazón y anular y el resto bajados estaremos haciendo el gesto «3» y eligiendo la tercera opción.

@@ -32,8 +32,6 @@ Una vez tenemos este reproductor creado, lo ubicamos en el cuadrado de la interf
 
 Para detectar las manos y los gestos que nos servirán de referencia para elegir entre una opción u otra utilizaremos el módulo de visión artificial HandTrackingModule de la librería de python cvzone
 
-Con el método findHands() de la clase detector y con la imagen de la webcam, el número máximo de manos simultáneas que queremos detectar y el índice de confianza como inputs detectaremos la mano que captura la webcam y sus 20 puntos de referencia.
-
-| <p align="right">
+Con el método findHands() de la clase detector y con la imagen de la webcam, el número máximo de manos simultáneas que queremos detectar y el índice de confianza como inputs detectaremos la mano que captura la webcam y sus 20 puntos de referencia. <p align="right">
   <img width="460" height="300" src="https://alejandromora.es/wp-content/uploads/2022/12/Mano.jpg/460/300">
 </p>

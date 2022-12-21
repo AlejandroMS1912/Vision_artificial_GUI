@@ -7,9 +7,9 @@ cap = cv2.VideoCapture(0) # Capturar webcam
 cap.set(3, 640) # Dimensiones - Pixeles eje x
 cap.set(4, 480) # Dimensiones - Píxeles eje y
 
-imgFondo = cv2.imread("Resources/fondo.png") # Leer la imagen base de nuestra interfaz gráfica
+imgFondo = cv2.imread("Recursos/fondo.png") # Leer la imagen base de nuestra interfaz gráfica
 
-directorio_Opciones = "Resources/Opciones" # Directorio "Opciones"
+directorio_Opciones = "Recursos/Opciones" # Directorio "Opciones"
 listaRutas_Opciones = os.listdir(directorio_Opciones) # Almacenar el nombre de todos los archivos del directorio seleccionado
 lista_Opciones = []
 # Leer cada uno de los archivos almacenados (Imágenes)
@@ -17,7 +17,7 @@ for imgOpcion in listaRutas_Opciones:
     lista_Opciones.append(cv2.imread(directorio_Opciones + "/" + imgOpcion)) 
 
 
-directorio_Iconos = "Resources/Iconos" # Directorio "Iconos"
+directorio_Iconos = "Recursos/Iconos" # Directorio "Iconos"
 listaRutas_Iconos = os.listdir(directorio_Iconos) # Almacenar el nombre de todos los archivos del directorio seleccionado
 lista_Iconos = []
 # Leer cada uno de los archivos almacenados (Imágenes)

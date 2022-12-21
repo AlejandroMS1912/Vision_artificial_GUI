@@ -41,7 +41,7 @@ Con el método findHands() de la clase detector y con la imagen de la webcam, el
 Finalmente el método fingersUp() también de la clase detector, con la mano detectada en el método anterior como input, deducirá si cada uno de los dedos está levantado o no dependiendo de la posición de sus puntos de referencia
 
 <p align="center">
-  <img width="460" height="300" src="https://alejandromora.es/wp-content/uploads/2022/12/puntos-de-referencia.png/460/300">
+  <img width="460" height="200" src="https://alejandromora.es/wp-content/uploads/2022/12/puntos-de-referencia.png/460/300">
 </p>
 
 Sabiendo si cada uno de los dedos está levantado (1 si lo está, 0 si no lo está) podemos empezar a construir los condicionales que formarán la lógica de nuestro código.

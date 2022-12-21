@@ -54,3 +54,14 @@ Por lo tanto, si todos los dedos están bajados (0) y el dedo índice esta levan
 |![2_código](https://user-images.githubusercontent.com/110389988/208964788-1440b73e-66de-403c-b8e8-f2cdedbba740.png)|<img align="center" width="100" height="100" src="https://alejandromora.es/wp-content/uploads/2022/12/2.png/100/100">|
 |![3_código](https://user-images.githubusercontent.com/110389988/208964801-3cd93492-7a53-4d92-a27a-10d3368c7dca.png)|<img align="center" width="100" height="100" src="https://alejandromora.es/wp-content/uploads/2022/12/istockphoto-1280587487-170667a-removebg-preview.png/100/100">|
 
+Teniendo ya la selección detectada en tiempo real guardada en una variable lo único que nos queda por hacer es añadir un tiempo de confirmación para que la opción no se elija instantáneamente al hacer cualquiera de los 3 gestos. 
+
+Para generar este tiempo de confirmación añadiremos un contador que incrementará su valor en cada frame que se detecte cualquiera de los 3 gestos de modo que si en algún momento dejamos de hacer el gesto o cambiamos de gesto este contador se reiniciará.
+
+Por lo tanto si le indicamos al programa que cuando el contador llegue a 80 se seleccione la opción correspondiente al gesto, le estaremos diciendo que, a una frecuencia de 20 fps, el tiempo de confirmación serán 4 segundos. (80 frames contados a 20 frames por segundo)
+
+Por último representaremos este tiempo de confirmación en la interfaz gráfica mediante una elipse que generaremos a través del método ellipse() de la librería de python opencv. Simplemente debemos ajustar algunos parámetros de la elipse como la posición del centro de la circunferencia (el centro de la opción seleccionada), el radio horizontal y vertical de la elipse, el grosor, el color y su valor, que será proporcional al contador mencionado anteriormente (tiempo de confirmación).
+
+<p align="center">
+  <img width="300" height="300" src="https://alejandromora.es/wp-content/uploads/2022/12/2_Moment2.jpg/300/300">
+</p>

@@ -27,6 +27,11 @@ table th:nth-of-type(2) {
     width: 50%;
 }
 </style>
++---------+---------+
+| Header1 | header2 |
++---------+---------+
+| Bar     | bar     |
++---------+---------+
 |**Pantallas de opción** | |
 |:-:|:-:|
 | Indican las opciones disponibles, en la primera imagen son sólo 2 mientras que en las siguientes son 3. Además la segunda y la tercera imagen dependen de la primera elección y la última muestra únicamente que el pedido se ha realizado con éxito. Todas estas variaciones hay que tenerlas en cuenta a la hora de crear la lógica del código.|![opciones](https://user-images.githubusercontent.com/110389988/208950867-2b4c5fb4-037f-4a77-8fae-23c8e4fcef6e.png)|
